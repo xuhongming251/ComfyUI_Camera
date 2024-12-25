@@ -1,0 +1,15 @@
+[project]
+name = "comfyui_camera"
+description = "ComfyUI processes local real-time camera feed and provides real-time preview of the result."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["opencv-python", "numpy", "psutil"]
+
+[project.urls]
+Repository = "https://github.com/xuhongming251/ComfyUI_Camera"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI_Camera"
+Icon = ""
